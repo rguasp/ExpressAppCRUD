@@ -1,0 +1,100 @@
+{{!-- <h1>{{title}}</h1>
+<p>Welcome to {{title}}</p> --}}
+
+<nav>
+  <ul id="navhover">
+    {{#if user}}
+      <li><span class="white" id="welcome">Welcome, <span class="babyblue">{{user.username}}</span> </span></li>
+    {{/if}}
+    <li> <button><a href="#about">About Us</a></button></li>
+    <li> <button><a href="#contact">Contact Us</a></button></li>
+    {{#unless user}}
+    <li><button><a href="/login">Log In</span></a></button></li>
+    <li><button><a href="/signup">Register</a></button></li>
+    {{/unless}}
+    {{#if user}}
+      <li><button><a href="/profile/{{user._id}}">Profile</span></a></button></li>
+      <li> <button><a href="/logout">Log Out</a></button></li>
+     {{/if}}
+  </ul>
+</nav>
+
+<header> 
+      <h1 class="textoutline"><span class="textoutline">Test</span><span class="babyblue">Express App</span></h1>
+      <h2 class="textoutline"><span class="textoutline">"Express </span> <span class="babyblue">App </span><span class="textoutline">Template</span><span class="textoutline">"</span></h2>
+      <h3 class="textoutline"><span class="babyblue">Try it </span><span class="textoutline">Now</span> </h3>
+      <h3 class="textoutline"><span class="textoutline">Its </span><span class="babyblue">Free!</span></h3>
+      <div class="getstarted">
+        <button onclick="window.location.href='/signup'">Get Started</button>
+      </div>
+</header>
+
+<section id="contact">
+  <h2>Contact <span class="babyblue">Us</span></h2>
+  <h3>We would like to hear from you!</h3>
+  <div class="contactinfo">
+    <div>
+      <img id="black" src="./images/phoneicon2.png" alt="phoneicon">
+      <h4>Phone</h4>
+      <p>+1 786-797-7691</p>  
+      </div>
+    <div>
+      <img id="black" src="./images/address.png" alt="addressicon">
+      <h4>Address</h4>
+      <p>120 SW 8th St</p>  
+      <p>33130, Miami,Fl</p>
+      <p>United States</p>
+    </div>
+    <div>
+      <img src="./images/emailicon4.png" alt="emailicon">
+      <h4>Email</h4>
+      <p><a href="#">BreedMaster@hotmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2><span class="babyblue">About</span> Us</h2>
+  <h3 class="grey">One man with big ideas.</h3>
+
+  <div class="aboutpic">
+  <img id="rafael" src="./images/about.jpg" alt="rafael">
+  </div>
+  <h3>Rafael <span class="babyblue">Guasp</span></h3>
+</section>
+
+
+<footer>
+
+  <div class="terms">
+  <p>Copyright © Master Breed 2018</p>
+  </div>
+
+  <div>
+  <ul>
+    <li><a href="#"><img src="./images/facebookicon.png" alt="facebookicon"></a></li>
+    <li><a href="#"><img src="./images/twittericon.png" alt="twittericon"></a></li>
+    <li><a href="#"><img src="./images/emailicon.png" alt="emailicon"></a></li>
+  </ul>
+  </div>
+
+  <div class="terms">
+    <ul>
+      <li><a href="#"><span class="blue">Privacy Policy</span></a></li>
+      <li><a href="#"><span class="blue">Terms of Use</span></a></li>
+    </ul>
+  </div>
+
+
+
+</footer>
+{{!-- {{#unless user}}
+  <h1>Welcome</h1> 
+  <div>
+    <a href="/login">Login</a>
+    <a href="/signup">Sign Up </a>
+    <a href="/profile">Profile Page</a>
+    <a href="/logout">Log Out</a>
+    
+  </div>
+{{/unless}} --}}

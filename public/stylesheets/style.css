@@ -1,0 +1,469 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: darkgrey; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+nav {
+  width: 100%;
+  background-color: grey;
+  position: fixed;
+  height: 60px; }
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly; }
+
+li {
+  list-style-type: none;
+  display: flex; }
+
+header {
+  background-color: black;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  /* background-image: url("../images/pup2.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+header h1 {
+  font-size: 3em; }
+
+header h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.5em; }
+
+header h3 {
+  font-size: 2em; }
+
+header button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+header button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none; }
+
+.babyblue {
+  color: #46c0eb; }
+
+.white {
+  color: white; }
+
+.getstarted {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: none;
+  outline: none; }
+
+#about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  background-image: url("../images/aboutbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 500px;
+  color: white; }
+
+#rafael {
+  width: 300px;
+  height: 200px; }
+
+.aboutpic {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+#about h2 {
+  font-size: 3em;
+  margin-bottom: 0; }
+
+.grey {
+  color: grey;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 0; }
+
+#contact {
+  height: 950px;
+  text-align: center;
+  background-color: black;
+  color: white; }
+
+#contact h2 {
+  margin-top: 0; }
+
+footer {
+  height: 93px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  padding-top: 25px; }
+
+footer ul {
+  display: flex;
+  flex-direction: row; }
+
+footer li {
+  padding-left: 10px; }
+
+footer img {
+  width: 35px;
+  height: 35px; }
+
+.terms {
+  padding-top: 10px;
+  color: black; }
+
+.terms a {
+  color: black; }
+
+#contact h3 {
+  font-style: italic;
+  font-weight: 100;
+  color: grey; }
+
+#contact h2 {
+  font-size: 3em;
+  padding-top: 100px; }
+
+.contactinfo img {
+  width: 100px;
+  height: 100px; }
+
+.contactinfo a {
+  color: blue; }
+
+#navhover a:hover {
+  text-decoration: none; }
+
+.blue {
+  color: blue; }
+
+.signup {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px; }
+
+.login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 400px;
+  background-color: black;
+  border-radius: 25px; }
+
+.center {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  border-radius: 25px; }
+
+.center button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.center button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none; }
+
+.loginbody {
+  /* background-image: url("../images/signupbackground.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px; }
+
+.loginposition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px; }
+
+.loginbutton {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.loginbutton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none; }
+
+.headerprofile {
+  background-image: none;
+  color: white; }
+
+.edituser {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 400px;
+  background-color: black;
+  border-radius: 25px;
+  color: white; }
+
+.edituserbody {
+  height: 1200px;
+  background-image: url("../images/signupbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.edituserposition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px; }
+
+.edituser button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.edituser button:hover {
+  background: #3cb0fd; }
+
+.edituser textarea {
+  border: none; }
+
+#navhover button {
+  background-color: grey;
+  border-radius: 3px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 14px; }
+
+#navhover button:hover {
+  background-color: #3498db; }
+
+#welcome {
+  padding-top: 10px; }
+
+.signupbody {
+  /* background-image: url("../images/signupbackground.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px; }
+
+#black {
+  background-color: white;
+  border-radius: 50px; }
+
+.dogs {
+  height: 100%;
+  background-color: #3498db;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center; }
+
+.dogs li {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 30px; }
+
+.dogstitle {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 40px; }
+
+.textoutline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; }
+
+.headerdoglist {
+  background: black;
+  height: 100%;
+  padding-top: 50px; }
+
+.headerdoglist li {
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+
+.addbody {
+  background-image: url("../images/signupbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px;
+  text-align: center; }
+
+.addnewdog {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  width: 400px;
+  height: 400px; }
+
+.addnewdog button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.addnewdog button:hover {
+  background: #3cb0fd; }
+
+.addnewdogposition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px; }
+
+.headerprofile h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.dogs button {
+  background: black;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.dogs button:hover {
+  background: grey; }
+
+.dogprofileimage {
+  display: flex;
+  justify-content: center; }
+
+.headerdoglist img {
+  width: 200px;
+  height: 200px; }
+
+.headerdoglist li {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-bottom: 30px;
+  justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */
